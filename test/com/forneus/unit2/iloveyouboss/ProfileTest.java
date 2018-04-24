@@ -68,7 +68,17 @@ public class ProfileTest {
 	}
 
 	/* The Answer returned from answers.get() is null (line 29). */
-	//@Test
+	@Test
+	public void answersReturnNullAnswer() {
+		profile.add(new Answer(question, Bool.TRUE));
+		Question anotherQuestion = new BooleanQuestion(2, "Got certificate?");
+		criteria.add(new Criterion(new Answer(anotherQuestion, Bool.TRUE), Weight.Important));
+		
+		boolean itMatches = profile.matches(criteria);
+		assertFalse(itMatches);
+
+	}
+
 	/* Either of criterion.getAnswer() or criterion.getAnswer().getQuestionText() returns null (line 29). */
 	//@Test
 	/* match resolves to true because value matches criterion.getValue() (line 30). */
