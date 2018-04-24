@@ -1,4 +1,4 @@
-package com.forneus.unit2.iloveyouboss;
+package com.forneus.unit02.iloveyouboss;
 
 import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.collection.IsEmptyIterable.emptyIterable;

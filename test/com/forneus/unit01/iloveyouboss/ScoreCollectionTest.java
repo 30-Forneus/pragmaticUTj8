@@ -1,4 +1,4 @@
-package com.forneus.unit1.iloveyouboss;
+package com.forneus.unit01.iloveyouboss;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;

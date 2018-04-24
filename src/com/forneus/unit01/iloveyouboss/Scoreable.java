@@ -1,4 +1,4 @@
-package com.forneus.unit1.iloveyouboss;
+package com.forneus.unit01.iloveyouboss;
 
 @FunctionalInterface
 public interface Scoreable {

@@ -1,4 +1,4 @@
-package com.forneus.unit2.iloveyouboss;
+package com.forneus.unit02.iloveyouboss;
 
 public class PercentileQuestion extends Question {
    public PercentileQuestion(int id, String text, String[] answerChoices) {
